@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int sum = 0;
         // Dosya okuma
-        try (BufferedReader myBfReader = new BufferedReader(new FileReader("C:\\Users\\Userr\\IdeaProjects\\readNumbers\\src\\myFile.txt"))) {
+        try (BufferedReader myBfReader = new BufferedReader(new FileReader("src\\myFile.txt"))) {
        //String tipinde yeni değişken tanımlanıp her okunan satır bu değişkene atanır.
             String line;
             while((line = myBfReader.readLine()) != null){
